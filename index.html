@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project 2</title>
+    <script src="js.main.js" async defer></script>
+    <script src="thirdpartyapi.js" async defer></script>
+   
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3gadA_wR15rv7ZirRqZQVwNCXXpUWxB4&callback=initMap">
+    </script>
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+  
+    <style>
+        body {
+            font-family: "itallics";
+            background-color: lightseagreen;
+            background-image: "images/sunset_scenery-wide.jpg";
+
+        }
+
+        #mallloc {
+            margin: 4em 0;
+            };
+
+        #testing {
+            height: 400px;
+            width: 500px;
+        };
+    </style>
+<head>
+<body class="container">
+    <div class="jumbotron">
+        <h1 class="text-center">My Wish List</h1>
+
+        <h2> Search My Favourite Items</h2>
+        <div class="row">
+            <input class="box" type="text" id="input" placeholder="Search here ">
+            <button class="box" id="plus">Search</button>
+        </div>
+
+        <div><br>
+
+            <h3>Best Deals</h3>
+            <li class="summer"> Summer Deals<ul>tops </ul>
+            </li>
+            <ul>Bottoms</ul>
+            <ul>jackets </ul>
+            <br>
+            <li class="fall"> Fall Deals<ul>tops </ul>
+            </li>
+            <ul>Bottoms</ul>
+            <ul>jackets </ul>
+            <br>
+            <li class="winter"> Winter Deals<ul>tops </ul>
+            </li>
+            <ul>Bottoms</ul>
+            <ul>jackets </ul>
+        </div><br>
+        <h2>My Search List</h2>
+        <div id = "list"></div><br>
+            <h3>Find a Place for shopping</h3>
+            <button id="mallloc">Search a near Shopping Mall</button>
+
+            <div id="testing"></div>
+
+    </body>
+<footer>for more info contact @fiftyfifty.com</footer>
+
+</html>
